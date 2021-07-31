@@ -1,7 +1,64 @@
-.f-s-h{
-    font-family: 'Nanum Gothic', sans-serif;
+#business {
+    background-image: url(images/home/home1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 533px;
+    position: relative;
+    z-index: 0;
 }
 
-.f-s-p{
-    font-family: 'Roboto', sans-serif;
+#business .col-md-6 {
+    margin-top: 100px;
+}
+
+#business .img-right {
+    width: 100%;
+    position: relative;
+    top: 200px;
+}
+
+#business .img-left {
+    width: 100%;
+    position: relative;
+    top: 330px;
+}
+
+
+#business-catagory{
+    background-image: url(images/home/home2.png);
+    width: 100%;
+    margin-top: -60px;
+}
+
+#business-catagory p {
+    color: black;
+    width: 75%;
+    margin: auto;
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+}
+
+#program {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#business-catagory img {
+    height: 100px;
+    width: 100px;
+}
+
+@media  only screen and (max-width: 600px) {
+    #business .img-right {
+        display: none;
+    }
+
+    #business .img-left {
+        display: none;
+    }
+
 }
